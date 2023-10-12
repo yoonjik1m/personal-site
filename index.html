@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta htto-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+    <script src="https://kit.fontawesome.com/c1de6e1944.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo"><a href="index.html"><img src="assets/logo.svg"></a></div>
+        <div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="https://drive.google.com/file/d/1Hj7Ez8HaDOQm2rXRwhAxghcEt45poTHv/view?usp=sharing" target="_blank">resume</a><img id="download" src="assets/download.svg"></a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"><img src="assets/logo.svg"></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="togglemenu()">home</a></li>
+                <li><a href="#about" onclick="togglemenu()">about</a></li>
+                <li><a href="#resume" onclick="togglemenu()">resume</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        
+        <div class="section_text">
+
+            <h1 class="section_text_h1">hi, i'm yoonji<img id="star" src="assets/star.svg"></h1>
+
+            <p class="section_text_p">Yoonji Kim is a <span style="color:#FFAC2F">product manager</span> passionate about designing and creating solutions to bring innovation and impact. </p>
+
+            <div class="btn_container">
+                <a href="about.html">
+                    <button class="btn1">
+                        more about yoonji
+                    </button>
+                </a> 
+                
+            </div>
+
+
+            
+            <section id="contact">
+                <div class="contact-container-home">
+                    <div class="text-container">
+                        <h1>Let's connect!</h1>
+                    </div>
+        
+                    <div class="socials-container">
+                        <a href="https://www.linkedin.com/in/yoonjikim/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:“yoonjikim@g.ucla.edu"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
