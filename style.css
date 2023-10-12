@@ -165,6 +165,8 @@ section{
 
 .section-container{
     display: flex;
+    max-height: 600px;
+    align-items: flex-start;
 }
 
 #profile{
@@ -268,9 +270,10 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10vh;
     gap: 5rem;
-    height: 80vh;
     color: #FFFCEB;
+    align-items: flex-start;    
 }
 
 .about-intro-container{
